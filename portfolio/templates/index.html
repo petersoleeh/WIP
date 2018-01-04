@@ -3,44 +3,155 @@
 {%load static%}
 
 {{block.super}}
+<!-- header section -->
 
 <section class="landing" class="img-responsive">
   <header>
-    I'm PETER <br>
-    <small>A web developer</small>
+    I'm PETER MAINA <br>
+    <small>A full-stack developer and designer.</small>
   </header>
   <!-- <img src="https://source.unsplash.com/user/erondu/1600x900"> -->
 </section>
-<section class="about">
-  <h4 class="text-center">About ME
-  <i>i love design</i>
-  </h4>
+<!-- end header section -->
+
+<!-- Offers and skill section -->
+<section class="about" id="about">
+  <h5 class="text-center">ABOUT ME</h5>
+  <hr>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>Design what you want</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <img src="static/images/prof.jpg" alt="avatar" width="500" class="avatar" class="img-responsive">
       </div>
-      <div class="col-md-6">
-        <img src="{%static 'images/avatar.png' %}" alt="" class="img-responsive" width="800" class="img-circle">
-      </div>
+
+        <div class="col-md-6">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">Full Stack Developer</span>
+              <p>I'm a self-driven Computing graduate with a passion for web design and development. I have a methodical approach to work from concept creation to development and deployment. <br>My career goal is to gain a role which will further my knowledge and skills as well as increased responsibility within a progressive, market-leading and innovative company.</p>
+            </div>
+          </div>
+        </div>
+        </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="{%static 'images/avatar.png' %}" alt="" class="img-responsive" width="800">
+    <div class="container">
+        <div class="row">
+          <h5 class="text-center">SKILLS</h5>
+          <hr>
+          <div class="col-md-6">
+            <h5>Front End Skills</h5>
+            <p>I am comfortable with frontend development using CSS, Javascript and HTML to create responsive web designs</p>
+
+          </div>
+          <div class="col-md-6" id="back">
+            <h5>Back End Skills</h5>
+            <p>I'm a Django developer passionate about building quality web applications. I have experience with Django/Python,and PostgreSQL</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h2>Develop what you need</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </div>
 </section>
+<!-- end offers and skills sections -->
+
+<!-- portfolio secction -->
+<section class="works" id="works" id="border">
+<h5 class="text-center">PORTFOLIO</h5>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="static/images/gth.png" alt="github prof" width="200" class="img-responsive">
+      <a href="https://petersoleeh.github.io/Githubprofile-lookup/"><h4>Githubprofile lookup</h4></a>
+      <p>This is a web app that allows a user to look up the profile of persons in Github</p>
+      <ul>
+        <li>HTML</li>
+        <li>JAVASCRIPT</li>
+        <li>SCSS</li>
+      </ul>
+
+    </div>
+    <div class="col-md-6">
+      <img src="static/images/msp.png" alt="github prof" width="150" class="img-responsive">
+      <a href="https://ms-projects-ddf83.firebaseapp.com/"><h4>MS-Projects</h4></a>
+      <p>A web app that will detail different apps students come up with during team-week projects.</p>
+      <ul>
+        <li>Node.js</li>
+        <li>Ember CLI</li>
+        <li>CSS</li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="static/images/pl.png" alt="github prof" width="300" class="img-responsive">
+      <a href="https://gametime-ke.herokuapp.com/"><h4>GameTime</h4></a>
+      <p>A sports update web app</p>
+      <ul>
+        <li>PYTHON</li>
+        <li>DJANGO</li>
+        <li>FLASK</li>
+      </ul>
+
+    </div>
+    <div class="col-md-6">
+      <img src="static/images/logo2.png" alt="feedme" width="300" class="img-responsive">
+      <a href="https://feedme-ke.herokuapp.com/"><h4>Feed Me</h4></a>
+      <p>A web app that will assist a user pick restaurants and make food orders</p>
+      <ul>
+        <li>PYTHON</li>
+        <li>DJANGO</li>
+        <li>PostgreSQL</li>
+        <li>Bootstrap3</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="static/images/gthubprof.png" alt="github prof" width="500" class="img-responsive">
+      <h4>Githubprofile lookup</h4>
+      <p>This is a web app that allows a user to look up the profile of persons in Github</p>
+
+    </div>
+    <div class="col-md-6">
+      <img src="static/images/ms-project.png" alt="github prof" width="500" class="img-responsive">
+    </div>
+  </div>
+</div> -->
+</section>
+<!-- end portfolio section -->
+
+<footer class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Get In Touch</h5>
+        <p><i class="fa fa-phone" aria-hidden="true"></i> +254 728 453 463</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> petersoleeh@gmail.com</p>
+      </div>
+      <div class="col l4 offset-l2 s12"><br>
+        <ul>
+          <a href="https://www.linkedin.com/in/peter-maina" target="_blank"><li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li></a>
+          <a href="https://www.instagram.com/_soleeh/" target="_blank"><li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+          <a href="https://github.com/petersoleeh" target="_blank"><li><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    &#9400; Copyright
+    <script>
+      var theDate=new Date();
+      document.write(theDate.getFullYear());
+    </script> Peter Maina. All right reserved
+    </div>
+  </div>
+</footer>
+
+
 
 {%endblock%}
