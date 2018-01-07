@@ -25,10 +25,6 @@ header {
 }
 .landing{
   height: 100vh;
-  /*margin-top: -50px;*/
-  /*font-family: 'Indie Flower', cursive;*/
-  /*font-family: 'Monoton', cursive;*/
-  /*background-image: url("https://source.unsplash.com/random/1600x900");*/
   background-image:
     linear-gradient(
       to bottom,
@@ -36,13 +32,9 @@ header {
       rgba(0, 0, 0, 0.3)
     ),
     url("../images/prof.jpg");
-    /*url("https://source.unsplash.com/random/1600x900");*/
   background-size: cover;
   background-attachment: fixed;
 }
-/*.landing #navbar {
-  display: none !important;
-}*/
 .avatar{
   border: solid black;
 }
@@ -50,9 +42,6 @@ footer{
   background-color: #3b5051;
   color: #fff;
   text-align: center;
-
-
-
 }
 ul li{
   display: inline;
@@ -88,13 +77,16 @@ p{
     width:100%;
   }
   #about{
-    width: auto;
+    width: 100%;
   }
   #works{
     width: 100%;
   }
   .col-md-6{
     width: auto;
+  }
+  img{
+    width: 100%;
   }
 
 }
